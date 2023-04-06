@@ -10,7 +10,7 @@ import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 
 const galleryEl = document.querySelector('div.gallery');
-galleryEl.inneraHTML = markupGalleryItems(galleryItems);
+galleryEl.innerHTML = markupGalleryItems(galleryItems);
 
 const gallery = new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
