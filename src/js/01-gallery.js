@@ -9,7 +9,7 @@ import SimpleLightbox from 'simplelightbox';
 // Додатковий імпорт стилів
 import 'simplelightbox/dist/simple-lightbox.min.css';
 
-const galleryEl = document.querySelector('div.gallery');
+const galleryEl = document.querySelector('.gallery');
 galleryEl.innerHTML = markupGalleryItems(galleryItems);
 
 const gallery = new SimpleLightbox('.gallery a', {
